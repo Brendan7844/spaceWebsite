@@ -1,0 +1,94 @@
+﻿*{
+    margin: 0;
+    padding: 0;            
+}
+
+#header {
+    background-color: #3F4A67;           
+    text-align: center;           
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: Arial;            
+}
+            
+#container {
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #A5ACBD;
+}
+        
+#introduction {
+    background-image: url("images/spaceImage.jpg");
+    align-content: center;
+    padding-top: 100px;
+    padding-bottom: 1000px;
+    text-align: center;
+    color: white;
+    font-family: courier;
+}
+
+#footer {
+    background-color: darkslateblue;
+}
+#navigation {
+    top: 50px;
+    background-color: #20273A;
+}
+
+#menuIcon {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+#iconText {
+    position: absolute;
+    top: 5%;
+    left: 150%;
+    font-family: times;
+    color: white;
+    font-size: 30px;
+}
+
+.icon {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #20273A;
+    width: 100%;
+}
+
+.nav a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #20273A;
+}
+
+.nav a:hover {
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    font-family: "Brush Script MT"; 
+    font-size: 500%;
+    color: white;
+}
+
+.box {
+    background-color: white;
+    position: absolute;
+    padding: 5%;
+    width: 10%;
+    height: 10%;
+}
